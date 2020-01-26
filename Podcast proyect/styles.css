@@ -1,11 +1,6 @@
     body,
     html {
-        width: 100%;
         margin: 0;
-    }
-    
-    .contenedor-site-header {
-        width: 100%;
     }
     
     .navbar {
@@ -62,14 +57,14 @@
         position: absolute;
     }
     
-    @media only screen and (max-width: 600px) {
+    @media screen and (max-width: 700px) {
         .navbar--btn-show,
         .navbar--btn-hide {
             display: block;
         }
         .navbar--btn-show:hover,
         .navbar--btn-hide:hover {
-            color: rgb(68, 207, 231);
+            color: #14259B;
         }
         .navbar--btn-hide {
             position: absolute;
@@ -77,10 +72,10 @@
             right: 20px;
         }
         .navbar--menu {
-            background-color: rgb(30, 50, 229);
-            position: absolute;
-            width: 30%;
-            height: 40vh;
+            background-color: #E52B1E;
+            position: fixed;
+            width: 50%;
+            height: 70vh;
             top: 0;
             right: -100%;
             -webkit-box-orient: vertical;
@@ -91,14 +86,14 @@
             -ms-flex-align: center;
             align-items: center;
             padding: 50px 0;
-            -webkit-transition: 1.5s;
-            transition: 1.5s;
+            -webkit-transition: 1s;
+            transition: 1s;
         }
         .navbar--menu-item {
             padding: 20px 0;
         }
         .navbar--menu-item a:hover {
-            color: rgb(235, 10, 10);
+            color: #14259B;
         }
         .navbar--menu-item a:active~.navbar--menu {
             right: -100%;
